@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml">
+    <Label fx:id="display"/>
+    <HBox>
+        <Button text="C" styleClass="op"/>
+        <Button text="\%" styleClass="op"/>
+        <Button text="+/-" styleClass="op"/>
+        <Button text="/" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text="7"/>
+        <Button text="8"/>
+        <Button text="9"/>
+        <Button text="-" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text="4"/>
+        <Button text="5"/>
+        <Button text="6"/>
+        <Button text="+" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text="1"/>
+        <Button text="2"/>
+        <Button text="3"/>
+        <Button text="*" styleClass="op"/>
+    </HBox>
+    <HBox>
+        <Button text="0"/>
+        <Button text="=" styleClass="op"/>
+        <Button text="^" styleClass="op"/>
+        <Button text="sqrt" styleClass="op"/>
+    </HBox>
+</VBox>
